@@ -96,7 +96,7 @@ select:focus {
     padding: 10px 15px;
     color: rgb(104, 104, 104);
     text-decoration: none;
-    border: none;
+    border: solid transparent 0.5px;
     border-radius: 3px;
     margin: 5px;
     font-size: 15px;
