@@ -204,7 +204,7 @@ ul li ul {
 }
 
 ul li:hover>ul,
-ul li ul:hover {
+ul li ul:focus {
     visibility: visible;
     opacity: 1;
     display: block;
