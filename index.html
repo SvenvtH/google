@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="src/favicon.png" />
+    <title>Google</title>
+    <script src="https://kit.fontawesome.com/9fa3d6cc56.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a><img id="pf" src="src/profile_picture.png"></a>
+            </li>
+            <li>
+                <a><i id="grid" class="fas fa-th fa-lg"></i></a>
+                <ul class="dropdown">
+                    <li>
+                        <div class="nav-menu-content">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <img id="icons" src="src/icons/profile_picture.png"><br><a>Account</a>
+                                    </td>
+                                    <td>
+                                        <img id="icons" src="src/icons/mijnBedrijf.png"><br><a>Mijn Bedrijf</a>
+                                    </td>
+                                    <td>
+                                        <img id="icons" src="src/icons/gmail.png"><br><a>Gmail</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img id="icons" src="src/icons/gdrive.png"><br><a>Drive</a>
+                                    </td>
+                                    <td>
+                                        <img id="icons" src="src/icons/gdocs.png"><br><a>Documenten</a>
+                                    </td>
+                                    <td>
+                                        <img id="icons" src="src/icons/gspread.png"><br><a>Spreadsheets</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img id="icons" src="src/icons/gslides.png"><br><a>Presentaties</a>
+                                    </td>
+                                    <td>
+                                        <img id="icons" src="src/icons/gagenda.png"><br><a>Agenda</a>
+                                    </td>
+                                    <td>
+                                        <img id="icons" src="src/icons/gsuite.png"><br><a>Chat</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img id="icons" src="src/icons/gmeet.png"><br><a>Meet</a>
+                                    </td>
+                                    <td>
+                                        <img id="icons" src="src/icons/gplus.png"><br><a>Google+</a>
+                                    </td>
+                                    <td>
+                                        <img id="icons" src="src/icons/gsite.png"><br><a>Sites</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <ul> </ul>
+            <li><a href="https://www.google.nl/imghp">Afbeeldingen</a></li>
+            <li><a href="https://mail.google.com/mail">Gmail</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div>
+            <img id="logo" src="src/main_logo.png">
+        </div>
+        <div class="form">
+            <img id="si" src="src/search_icon.png">
+            <form>
+                <input title="Zoeken" type="text" id="searchbar">
+            </form>
+            <a href="#"><img id="gm" src="src/google_mic.png"></a>
+        </div>
+        <div class="button-set">
+            <button onclick="googleSearch()"><a href="#">Google zoeken</a></button>
+            <button onclick="googleSearch()"><a href="#">Ik doe een gok</a></button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Nederland</p>
+    </div>
+    <div class="footer2">
+        <ul id="left">
+            <li><a href="#">Adverteren</a></li>
+            <li><a href="#">Bedrijf</a></li>
+            <li><a href="#">Over</a></li>
+            <li><a href="#">Hoe Google Zoeken Werkt</a></li>
+        </ul>
+        <ul id="right">
+            <li><a href="#">Instellingen</a></li>
+            <li><a href="#">Voorwaarden</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
